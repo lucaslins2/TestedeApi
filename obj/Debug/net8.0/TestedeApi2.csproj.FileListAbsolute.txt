@@ -42,3 +42,4 @@ C:\Users\lucas.lins\source\repos\TestedeApi2\TestedeApi2\bin\Debug\net8.0\Micros
 C:\Users\lucas.lins\source\repos\TestedeApi2\TestedeApi2\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\lucas.lins\source\repos\TestedeApi2\TestedeApi2\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\lucas.lins\source\repos\TestedeApi2\TestedeApi2\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\lucas.lins\source\repos\TestedeApi2\TestedeApi2\obj\Debug\net8.0\TestedeApi2.sourcelink.json
