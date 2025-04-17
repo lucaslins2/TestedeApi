@@ -16,7 +16,7 @@ WORKDIR /app
 COPY --from=build /app/out .
 
 # Expõe a porta padrão
-EXPOSE 80, 5000
+EXPOSE 80
 
 # Comando para iniciar a aplicação
 ENTRYPOINT ["dotnet", "TestedeApi2.dll"]
