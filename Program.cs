@@ -13,7 +13,14 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<JwtService>();
 
-
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ListenAnyIP(80); // HTTP
+    options.ListenAnyIP(5001, listenOptions =>
+    {
+        listenOptions.UseHttps(); // HTTPS
+    });
+});
 
 var jwtSettings = builder.Configuration.GetSection("JwtSettings");
 var secretKey = jwtSettings["SecretKey"];
