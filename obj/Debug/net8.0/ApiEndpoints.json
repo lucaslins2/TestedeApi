@@ -1,0 +1,54 @@
+[
+  {
+    "ContainingType": "TestedeApi2.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/v1/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "TestedeApi2.Model.UserModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestedeApi2.Controllers.DashBoardController",
+    "Method": "Get",
+    "RelativePath": "api/v1/DashBoard",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestedeApi2.Controllers.ProdutosController",
+    "Method": "Get",
+    "RelativePath": "api/v1/Produtos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestedeApi2.Controllers.ProdutosController",
+    "Method": "Pesquisar",
+    "RelativePath": "api/v1/Produtos/pesquisar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "descricaoProduto",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

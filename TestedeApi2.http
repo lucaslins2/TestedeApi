@@ -1,0 +1,8 @@
+@TestedeApi2_HostAddress = http://localhost:5187
+
+GET {{TestedeApi2_HostAddress}}/weatherforecast/
+Accept: application/json
+
+GET {{TestedeApi2_HostAddress}}/Produtos/
+Accept: application/json
+###
